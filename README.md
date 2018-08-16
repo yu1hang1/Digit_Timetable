@@ -10,6 +10,8 @@
 
 ---
 
+## DEMO
+
 ### 1.程序入口
 
 ![avatar](https://github.com/yu1hang1/Digit_Timetable/blob/master/findProcess.jpg)
@@ -18,9 +20,12 @@
 ![avatar](https://github.com/yu1hang1/Digit_Timetable/blob/master/登陆页面.jpg)
 
 ### 3.主页面
-![avatar](https://github.com/yu1hang1/project_C/blob/master/主页面.jpg)
+![avatar](https://github.com/yu1hang1/project_C/blob/master/主页.jpg)
 
 ---
 
+## 运营情况
+
+https://github.com/yu1hang1/Digit_Timetable/blob/master/TOP%E5%8F%97%E8%AE%BF%E9%A1%B5.png
 
 

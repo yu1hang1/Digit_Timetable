@@ -34,3 +34,7 @@
 ### 2.累计访问用户人数
 
 ![avatar](https://github.com/yu1hang1/Digit_Timetable/blob/master/%E7%B4%AF%E8%AE%A1%E8%AE%BF%E9%97%AE%E7%94%A8%E6%88%B7%E6%95%B0.png)
+
+### 3.论坛昨日概况
+
+![avatar](https://github.com/yu1hang1/Digit_Timetable/blob/master/%E8%AE%BA%E5%9D%9B%E6%98%A8%E6%97%A5%E6%A6%82%E5%86%B5.png)

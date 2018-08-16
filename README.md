@@ -31,4 +31,6 @@
 
 ![avatar](https://github.com/yu1hang1/Digit_Timetable/blob/master/TOP%E5%8F%97%E8%AE%BF%E9%A1%B5.png)
 
-### 2.累计访问总人数
+### 2.累计访问用户人数
+
+![avatar](https://github.com/yu1hang1/Digit_Timetable/blob/master/%E7%B4%AF%E8%AE%A1%E8%AE%BF%E9%97%AE%E7%94%A8%E6%88%B7%E6%95%B0.png)

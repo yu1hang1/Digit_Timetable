@@ -12,11 +12,13 @@
 
 ### 1.程序入口
 
-
+![avatar](https://github.com/yu1hang1/project_C/blob/master/SineWave.jpg)
 
 ### 2.登录页面
+![avatar](https://github.com/yu1hang1/project_C/blob/master/SineWave.jpg)
 
 ### 3.主页面
+![avatar](https://github.com/yu1hang1/project_C/blob/master/SineWave.jpg)
 
 ---
 

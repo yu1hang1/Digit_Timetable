@@ -21,7 +21,7 @@
 ![avatar](https://github.com/yu1hang1/Digit_Timetable/blob/master/登陆页面.jpg)
 
 ### 3.主页面
-![avatar](https://github.com/yu1hang1/project_C/blob/master/主页.jpg)
+![avatar](https://github.com/yu1hang1/Digit_Timetable/blob/master/%E4%B8%BB%E9%A1%B5.jpg)
 
 ---
 

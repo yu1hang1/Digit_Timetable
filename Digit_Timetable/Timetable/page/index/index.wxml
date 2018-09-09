@@ -1,0 +1,28 @@
+<view class="banner pr tc">
+	<image class="pic" src="https://67334961.sutthl.com/images/zhuye.png"></image>
+</view>
+<view class="w yuyue_box">
+
+
+	<view class="box" bindtap="pChange1">
+	
+		<view  value="{{schoolid_index}}" range="{{schoolid.txt}}" class="flex1">
+			<view class="picker" >{{schoolname}}</view>
+		</view>	
+	</view>
+
+
+	<input id="userName" bindchange="bindChange" placeholder="请输入你的学号" value="{{userName}}"/>
+	<input type="password" id="userm" bindchange="bindChange" placeholder="请输入你的密码"  value="{{userm}}"/>
+
+
+</view>
+
+<view id="yzmview" class="info-container" style="flex-direction:row;display:{{yzmview}}" >
+  <input id="yzm" bindchange="bindChange" placeholder="请输入验证码" value="{{yzm}}"/>
+<view style="width:50rpx"></view>
+		<image  style="margin-top: 19rpx;background:#4daef9;width: 100px; height: 39px;" src="data:image/jpg;base64,{{face}}"
+>
+		</image>
+</view>
+	<button type="warn"  style="width:90%"  bindtap="yuyueSubmit" class="mt20">登录</button>

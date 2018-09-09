@@ -1,0 +1,38 @@
+
+
+	<view class="box box1"style="background-size:100% 100%">
+
+
+   
+
+
+
+
+			<view class="flex1" style="flex-direction:column;">
+      <view style = "background:#ffffff;opacity:0.5"><text class="t1"style= "height:3rem;overflow:hidden;font-size:12px;"></text></view>
+
+         
+          <view class="box box1">
+          <view style="width:5rem"><text  class="t1"style= "padding-top: 0.5rem;padding-left : 1rem;height:3rem;overflow:hidden;color:#000000;font-size:20px;text-align:center;vertical-align:middle"> 课程：</text> </view>
+		<view class="flex1" style="background:#ffffff;"><text  class="t1"style= "padding-top: 0.5rem;height:3rem;overflow:hidden;color:#000000;font-size:20px;text-align:left;vertical-align:middle">  {{kcm}}</text></view></view>
+
+    <view class="box box1">
+          <view style="width:5rem"><text  class="t1"style= "padding-top: 0.5rem;padding-left : 1rem;height:3rem;overflow:hidden;color:#000000;font-size:20px;text-align:center;vertical-align:middle"> 教室：</text> </view>
+		<view class="flex1" style="background:#ffffff;"><text  class="t1"style= "padding-top: 0.5rem;height:3rem;overflow:hidden;color:#000000;font-size:20px;text-align:left;vertical-align:middle">{{js}}</text></view></view>
+    <view class="box box1">
+          <view style="width:5rem"><text  class="t1"style= "padding-top: 0.5rem;padding-left : 1rem;height:3rem;overflow:hidden;color:#000000;font-size:20px;text-align:center;vertical-align:middle"> 老师：</text> </view>
+		<view class="flex1" style="background:#ffffff;"><text  class="t1"style= "padding-top: 0.5rem;height:3rem;overflow:hidden;color:#000000;font-size:20px;text-align:left;vertical-align:middle">{{ls}}</text></view></view>
+     <view class="box box1">
+          <view style="width:5rem"><text  class="t1"style= "padding-top: 0.5rem;padding-left : 1rem;height:3rem;overflow:hidden;color:#000000;font-size:20px;text-align:center;vertical-align:middle"> 节数： </text> </view>
+		<view class="flex1" style="background:#ffffff;"><text  class="t1"style= "padding-top: 0.5rem;height:3rem;overflow:hidden;color:#000000;font-size:20px;text-align:left;vertical-align:middle">  {{time}}</text></view></view>
+    <view class="box box1">
+     <view style="width:5rem"><text  class="t1"style= "padding-top: 0.5rem;padding-left : 1rem;height:3rem;overflow:hidden;color:#000000;font-size:20px;text-align:center;vertical-align:middle"> 周数：</text> </view>
+		<view class="flex1" style="background:#ffffff;"><text  class="t1"style= "padding-top: 0.5rem;height:3rem;overflow:hidden;color:#000000;font-size:20px;text-align:left;vertical-align:middle">   {{zs}}</text></view></view>
+    <view class="box box1">
+    <view style="width:5rem"><text  class="t1"style= "padding-top: 0.5rem;padding-left : 1rem;height:3rem;overflow:hidden;color:#000000;font-size:20px;text-align:center;vertical-align:middle"> 备注：</text> </view>
+		<view class="flex1" style="background:#ffffff;"><text  class="t1"style= "padding-top: 0.5rem;height:3rem;overflow:hidden;color:#000000;font-size:20px;text-align:left;vertical-align:middle">   {{sx}}</text></view></view>
+    
+          
+            </view>
+	</view>
+<button type="warn" bindtap="yuyueSubmit" class="mt20">返回</button>

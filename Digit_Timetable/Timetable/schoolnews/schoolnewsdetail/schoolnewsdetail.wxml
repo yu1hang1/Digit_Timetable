@@ -1,0 +1,9 @@
+    <view class="news-item">
+     <view class="title">{{title}}</view>
+        <text class="time">{{time}}</text>
+        
+        <view class="desc"> <text>{{desc}}</text></view>
+    </view>
+
+
+

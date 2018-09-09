@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="info-container" style="background:#4daef9;flex-direction:row;" >
+   <input focus="{{true}}" maxlength="20" bindinput="onInput" placeholder="输入学校名称查询" /><button bindtap="goTologin" style="margin-top: 20rpx;height:75rpx;"><text >取消</text></button>
+</view>
+
+<scroll-view scroll-y="true" style="height:{{scrollHeight}}px;width: 100%;"
+  bindscrolltolower="scrollLowerEvent">
+
+
+   <view class="list-container">
+        <view wx:for="{{display_champions}}" style="width: 100%;">    
+          <view style="height:1rpx;background:#4daef9; width: 100%;"></view>
+                        <view class="list-text" data-gid="{{item.id}}" data-gname="{{item.txt}}" bindtap="goToDetaile">
+                            <text >{{item.txt}}</text>           
+            </view>
+          <view style="height:1rpx;background:#4daef9;"></view>  
+    </view>
+</view>
+</scroll-view>

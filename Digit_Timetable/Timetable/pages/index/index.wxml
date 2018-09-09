@@ -1,0 +1,161 @@
+	<view style="background-image:url(https://67334961.sutthl.com/images/background-image.png);background-size:100% 100%">
+<view  style="background:#4daef9;" >
+<picker style ="text-align:center;"bindchange="pChange" value="{{index}}" range="{{array}}" class="flex1">
+			<view class="picker" style="background:#ffffff;opacity:0.9;"> 2017年第二学期：{{array[index]}}</view>
+		</picker>
+
+
+    	<view class="box box1">
+
+		<view class="flex1" style="flex-direction:column;">
+
+    	<view style = "background:#007fff;opacity:0.5;"><text class="t1"style= "height:1.3rem;overflow:hidden;text-overflow:ellipsis;font-size:12px;"></text></view>
+
+    </view>
+		<view style="width:2rpx;background:#007fff;"></view>
+
+
+
+			<view class="flex1" style="flex-direction:column;position:relative">
+      <view style = "background:#007fff;opacity:0.5;"><text class="t1"style= "height:1.3rem;overflow:hidden;text-overflow:ellipsis;font-size:12px;">星期一</text></view>
+
+      </view>
+
+
+
+		<view style="width:2rpx"></view>
+      		<view class="flex1" style="flex-direction:column;position:relative">
+      <view style = "background:#007fff;opacity:0.5;"><text class="t1"style= "height:1.3rem;overflow:hidden;text-overflow:ellipsis;font-size:12px;">星期二</text></view>
+
+
+
+      </view>
+
+
+          		<view style="width:2rpx"></view>
+          		<view class="flex1" style="flex-direction:column;position:relative">
+      <view style = "background:#007fff;opacity:0.5;"><text class="t1"style= "height:1.3rem;overflow:hidden;text-overflow:ellipsis;font-size:12px;">星期三</text></view>
+
+
+
+      </view>
+
+
+            	<view style="width:2rpx"></view>
+          	<view class="flex1" style="flex-direction:column;position:relative">
+      <view style = "background:#007fff;opacity:0.5;"><text class="t1"style= "height:1.3rem;overflow:hidden;text-overflow:ellipsis;font-size:12px;">星期四</text></view>
+
+
+
+      </view>
+
+
+            	<view style="width:2rpx"></view>
+          	<view class="flex1" style="flex-direction:column;position:relative">
+      <view style = "background:#007fff;opacity:0.5;"><text class="t1"style= "height:1.3rem;overflow:hidden;text-overflow:ellipsis;font-size:12px;">星期五</text></view>
+
+
+      </view>
+            	<view style="width:2rpx"></view>
+          	<view class="flex1" style="flex-direction:column;position:relative">
+      <view style = "background:#007fff;opacity:0.5;"><text class="t1"style= "height:1.3rem;overflow:hidden;text-overflow:ellipsis;font-size:12px;">星期六</text></view>
+
+
+
+      </view>
+      
+            	<view style="width:2rpx"></view>
+          	<view class="flex1" style="flex-direction:column;position:relative">
+      <view style = "background:#007fff;opacity:0.5;"><text class="t1"style= "height:1.3rem;overflow:hidden;text-overflow:ellipsis;font-size:12px;">星期日</text></view>
+
+
+
+      </view>
+	</view>
+</view>
+<scroll-view scroll-y="true" style="height:{{scrollHeight}}px;width: 100%;"
+  bindscrolltolower="scrollLowerEvent">
+	<view class="box box1">
+		<view class="flex1" style="flex-direction:column;">
+
+  
+       	<view  style = "background:#007fff;opacity:0.5;height:3.0rem;"><text class="t1"style= "padding-top: 1rem;overflow:hidden;text-overflow:ellipsis;font-size:12px;">1</text></view>
+         
+        <view style = "height:3.0rem;"> <text class="t1"style= "overflow:hidden;text-overflow:ellipsis;font-size:12px;padding-top: 1rem;color:#0000ff;">2</text></view>
+        <view  style = "background:#007fff;opacity:0.5;height:3.0rem;"><text class="t1"style= "padding-top: 1rem;overflow:hidden;text-overflow:ellipsis;font-size:12px;">3</text></view>
+     
+        <view style = "height:3.0rem;"> <text class="t1"style= "overflow:hidden;text-overflow:ellipsis;font-size:12px;padding-top: 1rem;color:#0000ff;">4</text></view>
+         	<view  style = "background:#007fff;opacity:0.5;height:3.0rem;"><text class="t1"style= "padding-top: 1rem;overflow:hidden;text-overflow:ellipsis;font-size:12px;">5</text></view>
+        <view style = "height:3.0rem;"> <text class="t1"style= "overflow:hidden;text-overflow:ellipsis;font-size:12px;padding-top: 1rem;color:#0000ff;">6</text></view>
+         	<view  style = "background:#007fff;opacity:0.5;height:3.0rem;"><text class="t1"style= "padding-top: 1rem;overflow:hidden;text-overflow:ellipsis;font-size:12px;">7</text></view>
+        <view style = "height:3.0rem;"> <text class="t1"style= "overflow:hidden;text-overflow:ellipsis;font-size:12px;padding-top: 1rem;color:#0000ff;">8</text></view>
+         	<view  style = "background:#007fff;opacity:0.5;height:3.0rem;"><text class="t1"style= "padding-top: 1rem;overflow:hidden;text-overflow:ellipsis;font-size:12px;">9</text></view>
+        <view style = "height:3.0rem;"> <text class="t1"style= "overflow:hidden;text-overflow:ellipsis;font-size:12px;padding-top: 1rem;color:#0000ff;">10</text></view>
+        <view  style = "background:#007fff;opacity:0.5;height:3.0rem;"><text class="t1"style= "padding-top: 1rem;overflow:hidden;text-overflow:ellipsis;font-size:12px;">11</text></view>
+        <view style = "height:3.0rem;"> <text class="t1"style= "overflow:hidden;text-overflow:ellipsis;font-size:12px;padding-top: 1rem;color:#0000ff;">12</text></view>
+    </view>
+		<view style="width:2rpx;background:#007fff;"></view>
+
+
+
+			<view class="flex1" style="flex-direction:column;position:relative">
+    
+
+
+
+      <view  wx:for="{{display_Mondaycurriculum}}"data-gid="{{item.id}}" data-gkcm="{{item.kcm}}" data-gjs="{{item.js}}" data-gls="{{item.ls}}" data-gtime="{{item.time}}" data-gzs="{{item.zs}}" data-gsx="{{item.sx}}"   bindtap="goToMore" style = "background:{{item.bgcolor}};opacity:0.5;position:absolute;top:{{item.top}};width:100%;border-radius: 12rpx"><text  class="t1"style= "height:{{item.height}};overflow:hidden;color:{{item.textcolor}};text-overflow:ellipsis;font-size:10px;">{{item.kcm}}\n {{item.js}}\n{{item.ls}} \n{{item.zs}}\n {{item.ls}}</text></view>
+      </view>
+
+
+
+		<view style="width:2rpx"></view>
+      		<view class="flex1" style="flex-direction:column;position:relative">
+    
+
+
+      <view  wx:for="{{display_Tuesdaycurriculum}}"data-gid="{{item.id}}" data-gkcm="{{item.kcm}}" data-gjs="{{item.js}}" data-gls="{{item.ls}}" data-gtime="{{item.time}}" data-gzs="{{item.zs}}" data-gsx="{{item.sx}}"   bindtap="goToMore" style = "background:{{item.bgcolor}};opacity:0.5;position:absolute;top:{{item.top}};width:100%;border-radius: 12rpx"><text  class="t1"style= "height:{{item.height}};overflow:hidden;color:{{item.textcolor}};text-overflow:ellipsis;font-size:10px;">{{item.kcm}}\n {{item.js}}\n{{item.ls}} \n{{item.zs}}\n {{item.ls}} </text></view>
+      </view>
+
+
+          		<view style="width:2rpx"></view>
+          		<view class="flex1" style="flex-direction:column;position:relative">
+    
+
+      <view  wx:for="{{display_Wednesdaycurriculum}}"data-gid="{{item.id}}" data-gkcm="{{item.kcm}}" data-gjs="{{item.js}}" data-gls="{{item.ls}}" data-gtime="{{item.time}}" data-gzs="{{item.zs}}" data-gsx="{{item.sx}}"   bindtap="goToMore" style = "background:{{item.bgcolor}};opacity:0.5;position:absolute;top:{{item.top}};width:100%;border-radius: 12rpx"><text  class="t1"style= "height:{{item.height}};overflow:hidden;color:{{item.textcolor}};text-overflow:ellipsis;font-size:10px;">{{item.kcm}}\n {{item.js}}\n{{item.ls}} \n{{item.zs}}\n {{item.ls}}</text></view>
+      </view>
+
+
+            	<view style="width:2rpx"></view>
+          	<view class="flex1" style="flex-direction:column;position:relative">
+    
+
+
+      <view  wx:for="{{display_Thursdaycurriculum}}"data-gid="{{item.id}}" data-gkcm="{{item.kcm}}" data-gjs="{{item.js}}" data-gls="{{item.ls}}" data-gtime="{{item.time}}" data-gzs="{{item.zs}}" data-gsx="{{item.sx}}"   bindtap="goToMore" style = "background:{{item.bgcolor}};opacity:0.5;position:absolute;top:{{item.top}};width:100%;border-radius: 12rpx"><text  class="t1"style= "height:{{item.height}};overflow:hidden;color:{{item.textcolor}};text-overflow:ellipsis;font-size:10px;">{{item.kcm}}\n {{item.js}}\n{{item.ls}} \n{{item.zs}}\n {{item.ls}}</text></view>
+      </view>
+
+
+            	<view style="width:2rpx"></view>
+          	<view class="flex1" style="flex-direction:column;position:relative">
+    
+
+
+      <view  wx:for="{{display_Fridaycurriculum}}"data-gid="{{item.id}}" data-gkcm="{{item.kcm}}" data-gjs="{{item.js}}" data-gls="{{item.ls}}" data-gtime="{{item.time}}" data-gzs="{{item.zs}}" data-gsx="{{item.sx}}"   bindtap="goToMore" style = "background:{{item.bgcolor}};opacity:0.5;position:absolute;top:{{item.top}};width:100%;border-radius: 12rpx"><text  class="t1"style= "height:{{item.height}};overflow:hidden;color:{{item.textcolor}};text-overflow:ellipsis;font-size:10px;">{{item.kcm}}\n {{item.js}}\n{{item.ls}} \n{{item.zs}}\n {{item.ls}}</text></view>
+      </view>
+            	<view style="width:2rpx"></view>
+          	<view class="flex1" style="flex-direction:column;position:relative">
+     
+
+
+
+      <view  wx:for="{{display_Saturdaycurriculum}}"data-gid="{{item.id}}" data-gkcm="{{item.kcm}}" data-gjs="{{item.js}}" data-gls="{{item.ls}}" data-gtime="{{item.time}}" data-gzs="{{item.zs}}" data-gsx="{{item.sx}}"   bindtap="goToMore" style = "background:{{item.bgcolor}};opacity:0.5;position:absolute;top:{{item.top}};width:100%;border-radius: 12rpx"><text  class="t1"style= "height:{{item.height}};overflow:hidden;color:{{item.textcolor}};text-overflow:ellipsis;font-size:10px;">{{item.kcm}}\n {{item.js}}\n{{item.ls}} \n{{item.zs}}\n {{item.ls}}</text></view>
+      </view>
+      
+            	<view style="width:2rpx"></view>
+          	<view class="flex1" style="flex-direction:column;position:relative">
+    
+
+      <view  wx:for="{{display_Sundaycurriculum}}"data-gid="{{item.id}}" data-gkcm="{{item.kcm}}" data-gjs="{{item.js}}" data-gls="{{item.ls}}" data-gtime="{{item.time}}" data-gzs="{{item.zs}}" data-gsx="{{item.sx}}"   bindtap="goToMore" style = "background:{{item.bgcolor}};opacity:0.5;position:absolute;top:{{item.top}};width:100%;border-radius: 12rpx"><text  class="t1"style= "height:{{item.height}};overflow:hidden;color:{{item.textcolor}};text-overflow:ellipsis;font-size:10px;">{{item.kcm}}\n {{item.js}}\n{{item.ls}} \n{{item.zs}}\n {{item.ls}}</text></view>
+      </view>
+	</view>
+</scroll-view>
+	</view>

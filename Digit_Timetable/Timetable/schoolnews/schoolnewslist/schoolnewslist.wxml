@@ -1,0 +1,24 @@
+<scroll-view  scroll-y="true" bindscrolltolower="loadMore" style="height: {{scrollHeight}}px" bindscrolltoupper="refresh">
+
+  <!--上方图片-->
+  <swiper indicator-dots="{{imageimageList}}" autoplay="true" interval="3000" duration="1000" style ="width:100%">
+    <block wx:for="{{imgUrls}}" width="100%">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" height="150" style ="width:100%" mode ="scaleToFill"/>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <!--瀑布流列表-->
+  <view wx:for="{{caiItems}}"  >
+    <view data-id="{{item.id}}"class="item" bindtap="onItemClick">
+      <view class="news-item">
+        <view class="title">{{item.title}}</view>
+        <text class="time">{{item.time}}</text>
+        <view class="desc">{{item.desc}}</view>
+      </view>
+    </view>
+  </view>
+
+</scroll-view>
+<loading hidden="{{loading}}">加载中...</loading>

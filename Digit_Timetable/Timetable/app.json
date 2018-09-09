@@ -1,0 +1,55 @@
+{
+  "debug": true, 
+  "window": {
+    "navigationBarTextStyle": "white", 
+    "navigationBarBackgroundColor": "#4daef9", 
+    "navigationBarTitleText": "数字课程表", 
+    "backgroundColor": "#ffffff", 
+  
+    "backgroundTextStyle": "dark"
+  }, 
+  "pages": [
+    
+    "pages/index/index",
+    "pages/logs/logs",
+    "page/index/index",
+    "page/logs/logs",
+    "recreation/home/index",
+    "recreation/chat/chat",
+    "recreation/dice/dice",  
+    "schoolnews/schoolnewslist/schoolnewslist" ,
+    "schoolnews/schoolnewsdetail/schoolnewsdetail"
+  ], 
+  "tabBar": {
+    "color": "#7F8389", 
+    "selectedColor": "#4daef9", 
+    "borderStyle": "black", 
+    "list": [
+      {
+        "selectedIconPath": "resources/cbb696e166eef1c25cee1a2497da7828.png", 
+        "pagePath": "pages/index/index", 
+        "iconPath": "resources/9395f1aff0450968c55193483f1a8558.png", 
+        "text": "课程表"
+      }, 
+        {
+          "selectedIconPath": "resources/cbb696e166eef1c25cee1a2497da7828.png",
+          "pagePath": "schoolnews/schoolnewslist/schoolnewslist",
+          "iconPath": "resources/9395f1aff0450968c55193483f1a8558.png",
+          "text": "新闻"
+        },
+        {
+          "selectedIconPath": "resources/cbb696e166eef1c25cee1a2497da7828.png",
+          "pagePath": "recreation/home/index",
+          "iconPath": "resources/9395f1aff0450968c55193483f1a8558.png",
+          "text": "娱乐"
+        },
+      {
+        "selectedIconPath": "resources/cbb696e166eef1c25cee1a2497da7828.png", 
+        "pagePath": "page/index/index", 
+        "iconPath": "resources/9395f1aff0450968c55193483f1a8558.png", 
+        "text": "查询"
+      }
+    ], 
+    "backgroundColor": "#ffffff"
+  }
+}
